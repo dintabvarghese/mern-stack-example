@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/record': 'http://localhost:5050',
+      '/record': 'https://mern-stack-example-z8ol.onrender.com',
     },
   },
 })
